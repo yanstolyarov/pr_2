@@ -32,8 +32,11 @@ def motor(x):
 while 1:
     motor(20)
     time.sleep(3)
+    print('test1')
     motor(-60)
     time.sleep(3)
+    print('test2')
     motor(99)
     time.sleep(3)
+    print('test3')
     motor(0)
