@@ -3,7 +3,7 @@ import time
 
 e2 = 17#inc
 m2 = 27#ind
-enb = 4
+enb = 14
 
 GPIO.setwarnings(False)
 
@@ -30,13 +30,5 @@ def motor(x):
         GPIO.output(e2, GPIO.LOW)
 
 while 1:
-    motor(20)
-    time.sleep(3)
-    print('test1')
-    motor(-60)
-    time.sleep(3)
-    print('test2')
     motor(99)
     time.sleep(3)
-    print('test3')
-    motor(0)
