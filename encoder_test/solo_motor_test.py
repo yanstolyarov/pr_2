@@ -3,9 +3,9 @@ import time
 
 e2 = 17#inc
 m2 = 27#ind
-enb = 14
+enb = 26
 
-GPIO.setwarnings(False)
+#GPIO.setwarnings(False)
 
 GPIO.setmode (GPIO.BCM)
 
