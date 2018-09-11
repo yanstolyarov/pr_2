@@ -26,7 +26,7 @@ def motor(x):
         GPIO.output(e2, GPIO.HIGH)
         GPIO.output(m2, GPIO.LOW)
     if x < 0:
-        p_w.ChangeDutyCycle(x)
+        p_w.ChangeDutyCycle(-x)
         #GPIO.output(enb, GPIO.HIGH)
         GPIO.output(m2, GPIO.HIGH)
         GPIO.output(e2, GPIO.LOW)
